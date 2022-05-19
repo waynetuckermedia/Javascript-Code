@@ -7,9 +7,9 @@
 function filterRangeInPlace(arr, a, b) {
 
     for(let i = 0; i < arr.length; i++){
-        let val = arr[i];
+        let value = arr[i];
 
-    if(val < a || val > b){
+    if(value < a || value > b){
     arr.splice(i, 1)
     i--;
    
@@ -19,3 +19,4 @@ function filterRangeInPlace(arr, a, b) {
 
 }
 filterRangeInPlace([3, 4, 5, 6, 7, 8, 9] , 5, 7)
+
