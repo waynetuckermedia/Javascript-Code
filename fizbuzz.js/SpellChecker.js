@@ -47,3 +47,6 @@ storyWords.forEach((word) => {
 
 
 console.log(storyWords.join(' '));
+
+
+
