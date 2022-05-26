@@ -15,3 +15,9 @@ let spaceship = {
   greenEnergy(spaceship)
   remotelyDisable(spaceship)
   console.log(spaceship)
+
+
+
+
+
+
